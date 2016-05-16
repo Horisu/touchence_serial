@@ -15,7 +15,7 @@ int main(int argc,char** argv){
   std::size_t length;
 
   boost::asio::streambuf rbuf;
-  const char *port_name = "/dev/ttyUSB0";
+  const char *port_name = "/dev/touchsensor";
   boost::asio::io_service io;
   boost::asio::serial_port port( io, port_name );
 
